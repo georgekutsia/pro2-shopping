@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.header-div1 button{
+ background-color: transparent;
+  border: none;
+}
+.header-div2{
+  text-align: center;
+}
+.header-div2 ul{
+  display: flex;
+  gap: 10px;
+}
+li{
+  list-style: none;
+}
+.header-div3 ul{
+  display: flex;
+  gap: 10px;
+}
+
+input{
+  border: none;
+  border-bottom:4px solid black
+}
+.ul-fixed{
+  margin-top: 40px;
+  padding-left: 0px ;
+  position: fixed;
+}
+#dropdown {
+  opacity: 0;
+}
+
+#dropdown.active {
+  opacity: 1;
+}
