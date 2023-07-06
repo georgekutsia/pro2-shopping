@@ -87,17 +87,15 @@ input{
   border: none;
   border-bottom:4px solid black
 }
-.ul-fixed{
-  margin-top: 40px;
-  padding-left: 0px ;
-  position: fixed;
-}
+
 #dropdown {
-  opacity: 0;
+  display: none;
+  top: 50px;
+  position: fixed;
 }
 
 #dropdown.active {
-  opacity: 1;
+  display: block;
   backdrop-filter: blur(5px);
   padding: 10px;
 }
@@ -117,6 +115,8 @@ section div{
 #dropdown a{
   text-decoration: none;
   color: black;
+  font-size: 20px;
+
 }
 section div img{
   width: calc(200px + 7vw);
