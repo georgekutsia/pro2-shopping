@@ -116,6 +116,7 @@ section div{
 section div img{
   width: calc(200px + 7vw);
   height: calc(290px + 9vw);
+  transition: 0.5s ease-in-out;
 }
 section div img:hover{
 scale: 1.4;
