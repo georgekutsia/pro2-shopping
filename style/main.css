@@ -15,6 +15,10 @@ header{
   font-size: calc(14px + 0.3vw);
 
 }
+.but:hover{
+  animation: shake 0.3s infinite ;
+  scale: 1.4;
+}
 .window-small-women{
   display: none;
 }
@@ -73,6 +77,7 @@ li{
 
 .header-div3 ul{
   display: flex;
+  gap: 10px;
 }
 .header-div3>div{
   display: flex;
