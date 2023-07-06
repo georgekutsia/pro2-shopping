@@ -60,9 +60,7 @@ button:hover{
 .header-div2:hover h1::before {
   content: "BIENVENIDO_A_";
 }
-.header-div2:hover h1{
-  transition: 0.4s ease-in-out;
-}
+
 .header-div2 ul{
   display: flex;
   gap: 1%;
