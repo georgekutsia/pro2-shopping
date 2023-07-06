@@ -159,6 +159,9 @@ section h5{
   display: flex;
   gap: 10px;
 }
+#section3 h5{
+    font-size: calc(12px + 0.5vw);
+}
 .ave{
   color:rgb(36, 160, 118);
 }
