@@ -13,42 +13,48 @@
 <body>
   <script>
     function toggleDropdown() {
-  var dropdown = document.getElementById("dropdown");
-  dropdown.classList.toggle("active");
-}
+    const dropdown = document.getElementById("dropdown");
+    dropdown.classList.toggle("active");
+    }
   </script>
   <header>
     <div class="header-div1">
-      <button onclick="toggleDropdown()">MUJER</button>
+      <button onclick="toggleDropdown()">DAMA</button>
       <span>|</span>
-      <button onclick="toggleDropdown()">HOMBRE</button>
+      <button onclick="toggleDropdown()">CABALLERO</button>
     </div>
+    <div class="window-small-women"> <i class="fa-solid fa-person fa-bounce"></i><i class="fa-solid fa-person-dress fa-bounce"></i></div>
       <ul id="dropdown" class="ul-fixed">
-        <li>Novedades</li>
-        <li>Ropa</li>
-        <li>P&B by Rosalia</li>
-        <li>Zapatos</li>
-        <li>Accesorios</li>
-        <li>Editoriales</li>
-        <li>Join Life</li>
-        <li>Promociones</li>
+        <li><a href="#novedades">Novedades</a></li>
+        <li><a href="#ofertas">Ofertas especiales</a></li>
+        <li><a href="">Ropa</a></li>
+        <li><a href="">P&B by Rosalia</a></li>
+        <li><a href="">Zapatos</a></li>
+        <li><a href="">Accesorios</a> </li>
+        <li><a href="">Editoriales</a></li>
+        <li><a href="">Join Life</a></li>
+        <li><a href="">Promociones</a></li>
       </ul>
     <div class="header-div2">
-      <h1>MI_TIENDA</h1>
+      <h1>MI_TIENDA_MEDIEVAL</h1>
       <ul>
-        <li class="li-word">dsad</li>
+        <li class="li-word">Medieval</li>
         <li>></li>
-        <li class="li-word">dsad</li>
+        <li class="li-word">Armaduras y Armas</li>
         <li>></li>
-        <li class="li-word">dsad</li>
+        <li class="li-word">Metal-cuero-tela</li>
         <li>></li>
-        <li >Licencias(51 artículos)</li>
+        <li style="color: black;">Licencias(40 artículos)</li>
       </ul>
     </div>
     <div class="header-div3">
       <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="Buscar">
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Buscar...">
+        </div>
+        <i class="fa-solid fa-user-ninja"></i>
+        <i class="fa-solid fa-toolbox"></i>
       </div>
       <div>
       <ul>
@@ -58,13 +64,217 @@
         <li>ORDENAR POR</li>
         <li>FILTROS</li>
       </ul>
-      </div>
     </div>
+  </div>
+  <div class="window-small-search"> <i class="fa-solid fa-magnifying-glass fa-fade"></i></div>
   </header>
   <section>
-
-
+    <div id="novedades">
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461272/donGions%20imgs/Eventos/pruebas/e64eb0e75e227d23cb4390942f228afa_bm1j2j.jpg" alt="Imgágen chula">
+      <h4>Armadura real<i class="fa-regular fa-star"></i></h4>
+      <h5>300 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461272/donGions%20imgs/Eventos/pruebas/f69c3734c0a439a6c1aa846c6448cd25_bwn7vm.jpg" alt="Imgágen chula">
+      <h4>Capa de mago<i class="fa-regular fa-star"></i></h4>
+      <h5> 250 piezas de Oro</h5>
+    </div>
+        <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424327/donGions%20imgs/Eventos/pruebas/89936ec8f9f11735a69304deb1c56312_vqvq4b.jpg" alt="Imgágen chula">
+      <h4> Guitarra espectacular<i class="fa-regular fa-star"></i></h4>
+      <h5>295 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461271/donGions%20imgs/Eventos/pruebas/e355af428c0232e7aacc3a95efef924c_fyzd7y.jpg" alt="Imgágen chula">
+      <h4>Toga de Rey<i class="fa-regular fa-star"></i></h4>
+      <h5>450 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461271/donGions%20imgs/Eventos/pruebas/fd23d3ae4b33099e0c28f356e3097cc4_n8ubav.jpg" alt="Imgágen chula">
+      <h4>Traje de Reina<i class="fa-regular fa-star"></i></h4>
+      <h5>450 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461270/donGions%20imgs/Eventos/pruebas/55690f41c9c79da7c24e161d98a74910_minfqi.jpg" alt="Imgágen chula">
+      <h4>Corona del rey</h4>
+      <h5>320 piezas de Oro</h5>
+    </div>
+    <div >
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461270/donGions%20imgs/Eventos/pruebas/add4c8fd0e276ac2c41c329f2594d8d1_lyf6rk.jpg" alt="Imgágen chula">
+      <h4> Armadura de guerrero</h4>
+      <h5>230 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461270/donGions%20imgs/Eventos/pruebas/491b1c757104ae3efe182c2d87150574_cbibs9.jpg" alt="Imgágen chula">
+      <h4>Hombreras de cuero</h4>
+      <h5>110 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461270/donGions%20imgs/Eventos/pruebas/9cdc5297ba4ea5cf582832e4331fe76c_tdniwa.jpg" alt="Imgágen chula">
+      <h4>Armadura de combate</h4>
+      <h5>330 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461269/donGions%20imgs/Eventos/pruebas/367f4077db26d0ce26dcd48ab69a0c70_xyj8mu.jpg" alt="Imgágen chula">
+      <h4>Bastón de mago básica</h4>
+      <h5>350 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461269/donGions%20imgs/Eventos/pruebas/7b1a167377fac8e295a7e64c0b4a0cb9_uneizj.jpg" alt="Imgágen chula">
+      <h4> Armadura de escudero</h4>
+      <h5>380 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424329/donGions%20imgs/Eventos/pruebas/29f452160cdd119b25bba2d75fadd141_gvel0i.jpg" alt="Imgágen chula">
+      <h4> Traje de monja</h4>
+      <h5>30 piezas de Oro</h5>
+    </div>
+    <div id="ofertas">
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417236/donGions%20imgs/Eventos/pruebas/88506fdac6a92ec2cbe5e4e1615207a5_rpdtyx.jpg" alt="Imgágen chula">
+      <h4> Abdominales de acero</h4>
+      <h5>4 meses de plancha</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424329/donGions%20imgs/Eventos/pruebas/bd3a0bd254f1b7f41e1b065dbc108cae_sbup3s.jpg" alt="Imgágen chula">
+      <h4>Mesa de comida</h4>
+      <h5>265 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688461270/donGions%20imgs/Eventos/pruebas/9156cde1ef3a367e0fe78315e4fa46e3_me8drs.jpg" alt="Imgágen chula">
+      <h4> Casco de verdugo</h4>
+      <h5>170 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424328/donGions%20imgs/Eventos/pruebas/02b0c9996216785596a59d9079d3694f_qjshe1.jpg" alt="Imgágen chula">
+      <h4> Guantes de cata</h4>
+      <h5>30 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424328/donGions%20imgs/Eventos/pruebas/3cefe30cfa36fd6906e39fb31c2a031e_xxoia0.jpg" alt="Imgágen chula">
+      <h4> Armadura conquistadora</h4>
+      <h5>200 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424327/donGions%20imgs/Eventos/pruebas/168c26e5c0f5d762bbad7280b6824081_qjcqtm.jpg" alt="Imgágen chula">
+      <h4> Laúd de bardo</h4>
+      <h5>100 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688424327/donGions%20imgs/Eventos/pruebas/b17330fa99c69df423f54711aa28ce7c_ijibbh.jpg" alt="Imgágen chula">
+      <h4> Libro de hechizos</h4>
+      <h5>150 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417237/donGions%20imgs/Eventos/pruebas/b9a8c6c72563567110984593b8a2fd9e_lg7yzs.jpg" alt="Imgágen chula">
+      <h4>Traje vikingo</h4>
+      <h5>135 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417237/donGions%20imgs/Eventos/pruebas/90bdbed9db44b76ce02963393f1cdf93_uzp2kl.jpg" alt="Imgágen chula">
+      <h4> Armadura de enano</h4>
+      <h5>235 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417235/donGions%20imgs/Eventos/pruebas/03fa746e4652e47564faa591bfbc72df_fdgms1.jpg" alt="Imgágen chula">
+      <h4> Conjunto familiar</h4>
+      <h5>610 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417235/donGions%20imgs/Eventos/pruebas/becf276a8f84e06bd0a0817f79ee1b3a_s0cgbw.jpg" alt="Imgágen chula">
+      <h4> Armadura brillante</h4>
+      <h5>450 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417235/donGions%20imgs/Eventos/pruebas/3a9b061a56c49d7bc60481ce5d49c9f4_bws3d6.jpg" alt="Imgágen chula">
+      <h4> Traje de marinero</h4>
+      <h5>190 piezas de Oro</h5>
+    </div>
+    <div>
+      <img src="https://res.cloudinary.com/dfrda73uc/image/upload/v1688417235/donGions%20imgs/Eventos/pruebas/1b02e2e06bd20ff86138c5ea4a52bd1b_hrqdyq.jpg" alt="Imgágen chula">
+      <h4> Laboratorio completo</h4>
+      <h5>1190 piezas de Oro</h5>
+    </div>
   </section>
-  <footer></footer>
+  <div id="section2">
+    <h4>10% de descuento en todas las armaduras oxidadas..</h4>
+    <h5>¡Subscríbete a la news papiro!</h5>
+    <h6>Introduce el nombre de tu paloma mensajera.</h6>
+    <input type="text">
+  </div>
+  <div id="section3">
+    <h5>Contacto</h5>
+    <ul>
+      <li class="ave"><i class="fa-solid fa-dove"></i>Ave real "Ricardo"</li>
+      <li>|</li>
+      <li>Venta onpaloma</li>
+      <li>|</li>
+      <li>Castillos y tabernas</li>
+    </ul>
+    <h5>De lunes a viernes, desde que sale el sol hasta que se va.</h5>
+  </div>
+  <div id="section4">
+    <div>
+      <div>
+        <ul>
+          <h5>Guía de compra</h5>
+          <li>Preguntas frecuentes</li>
+          <li>Pago</li>
+          <li>Envio</li>
+          <li>Devoluciones</li>
+          <li>Cambios</li>
+          <li>Castigo al hereje</li>
+          <li>Compra a través de un gremio</li>
+          <li>Disponibilidad de articulos</li>
+          <li>Modificaciones de datos y pedidos</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h5>Servicios</h5>
+          <li>Affinity Card</li>
+          <li>Tarjeta regalo</li>
+          <li>Arreglos *</li>
+          <li>Cuidado de </li>
+          <li>Cuidado de </li>
+          <li>*Exclusivo </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h5>Empresa</h5>
+          <li>Quienes somos</li>
+          <li>Tarjeta regalo</li>
+          <li>Arreglos *</li>
+          <li>Cuidado de prendas</li>
+          <li>Cuidado de calzado</li>
+          <li>*Exclusivo tiendas</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h5>Social</h5>
+          <li><i class="fa-solid fa-chess-rook"></i>&nbsp;&nbsp;Castillo</li>
+          <li><i class="fa-solid fa-chess-knight"></i>&nbsp;&nbsp;Cabalo </li>
+          <li><i class="fa-solid fa-hand-lizard"></i>&nbsp;&nbsp;Pato <li>
+          <li><i class="fa-solid fa-dungeon"></i>&nbsp;&nbsp;Mazmorra</li>
+          <li><i class="fa-solid fa-dragon"></i>&nbsp;&nbsp;Dragón</li>
+          <li><i class="fa-solid fa-democrat"></i>&nbsp;&nbsp;Demócrata </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <h5>Método de pago</h5>
+          <li><i class="fa-solid fa-coins"></i>&nbsp;&nbsp;Monedas de oro</li>
+          <li><i class="fa-solid fa-skull"></i>&nbsp;&nbsp;Sacrificio humano</li>
+          <li><i class="fa-solid fa-horse-head"></i>&nbsp;&nbsp;Caballos</li>
+          <li>&nbsp;&nbsp;</li>
+          <li>&nbsp;&nbsp;</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+        <div></div>
+    </div>
+  </footer>
 </body>
 </html>

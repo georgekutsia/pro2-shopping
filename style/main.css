@@ -6,32 +6,78 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 20px 30px;
+  background-color: rgb(254, 246, 234);
+
 }
 .header-div1 button{
- background-color: transparent;
+  background-color: transparent;
   border: none;
+  font-size: calc(14px + 0.3vw);
+
+}
+.window-small-women{
+  display: none;
+}
+.window-small-search{
+  display: none;
+}
+button:hover{
+  animation: shake 0.3s infinite ;
+  color: blue;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-3px, 3px);
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: translate(3px, -3px);
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: translate(-3px, 3px);
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 .header-div2{
   text-align: center;
+  justify-content: center;
+}
+.header-div2 h1{
+  font-size: calc(10px + 2vw);
+  font-weight: 700;
+}
+.header-div2:hover h1::before {
+  content: "BIENVENIDO_A_";
+}
+.header-div2:hover h1{
+  transition: 0.4s ease-in-out;
 }
 .header-div2 ul{
   display: flex;
-  gap: 10px;
-}
-li{
-  list-style: none;
-}
-li{
-  list-style: none;
-}
-li{
-  list-style: none;
-}
-.header-div3 ul{
-  display: flex;
-  gap: 10px;
+  gap: 1%;
+  color: rgb(159, 159, 160);
 }
 
+
+li{
+  list-style: none;
+  font-size: calc(7px + 0.3vw);
+}
+
+.header-div3 ul{
+  display: flex;
+}
+.header-div3>div{
+  display: flex;
+  gap: 25px;
+}
 input{
   border: none;
   border-bottom:4px solid black
@@ -47,4 +93,108 @@ input{
 
 #dropdown.active {
   opacity: 1;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 3%; 
+  padding-bottom: 200px;
+  background-color: rgb(254, 246, 234);
+
+}
+section div{
+    text-align: center;
+}
+#dropdown a{
+  text-decoration: none;
+  color: black;
+}
+section div img{
+  width: calc(200px + 7vw);
+  height: calc(290px + 9vw);
+}
+section div img:hover{
+scale: 1.4;
+}
+section h4{
+  font-size: calc(10px + 0.5vw);
+  color: rgb(53, 52, 52);
+}
+section h5{
+  font-size: calc(10px + 0.5vw);
+  font-weight: 600;
+}
+
+#section2{
+  text-align: center;
+  padding: 120px 0px;
+  border-top: 4px solid rgba(196, 196, 172, 0.183);
+  border-bottom: 4px solid rgba(196, 196, 172, 0.183);
+  background-color: rgb(254, 246, 234);
+}
+#section2 h4{
+  font-size: calc(30px + 0.5vw);
+  font-weight: 900;
+}
+#section2 h5{
+    font-size: calc(40px + 0.5vw);
+}
+#section2 input{
+    width: 600px;
+    max-width: 100%;
+}
+#section3{
+  text-align: center;
+  padding: 120px 0px;
+  border-bottom: 4px solid rgba(196, 196, 172, 0.183);
+  background-color: rgb(254, 246, 234);
+}
+#section3 ul{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+.ave{
+  color:rgb(36, 160, 118);
+}
+#section4 div{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-bottom: 40px;
+}
+
+#section4{
+  padding: 120px 0px;
+  border-bottom: 4px solid rgba(196, 196, 172, 0.183);
+  background-color: rgb(254, 246, 234);
+}
+#section4 li{
+  font-size: calc(10px + 0.4vw);
+}
+#section4 h5 {
+  margin-bottom: 30px;
+  font-size: calc(15px + 0.4vw);
+}
+
+@media (max-width: 768px) {
+  .header-div3{
+    display: none;
+  }
+.window-small-women{
+  display: flex;
+  font-size: 30px;
+}
+.window-small-search{
+  display: flex;
+  font-size: 30px;
+}
+.header-div1{
+  display: none;
+}
 }
