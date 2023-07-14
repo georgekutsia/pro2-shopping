@@ -7,16 +7,14 @@ header{
   justify-content: space-between;
   padding: 20px 30px;
   background-color: rgb(254, 246, 234);
-
 }
 .header-div1 button{
   background-color: transparent;
   border: none;
   font-size: calc(14px + 0.3vw);
-
 }
 .but:hover{
-  animation: shake 0.3s infinite ;
+  animation: shake 1.3s infinite ;
   scale: 1.4;
 }
 .window-small-women{
@@ -25,8 +23,10 @@ header{
 .window-small-search{
   display: none;
 }
+
+
 button:hover{
-  animation: shake 0.3s infinite ;
+  animation: shake 1.6s infinite ;
   color: blue;
 }
 @keyframes shake {
@@ -41,22 +41,28 @@ button:hover{
     transform: translate(3px, -3px);
     transform: rotate(-5deg);
   }
-  75% {
+  65% {
     transform: translate(-3px, 3px);
-    transform: rotate(-5deg);
+        transform: rotate(360deg);
   }
   100% {
     transform: translate(0);
   }
 }
+
+
 .header-div2{
   text-align: center;
   justify-content: center;
 }
+
+
 .header-div2 h1{
-  font-size: calc(10px + 2vw);
-  font-weight: 700;
+  font-size: calc(8px + 2vw);
+  font-weight: 700; 
 }
+
+
 .header-div2:hover h1::before {
   content: "BIENVENIDO_A_";
 }
@@ -66,8 +72,6 @@ button:hover{
   gap: 1%;
   color: rgb(159, 159, 160);
 }
-
-
 li{
   list-style: none;
   font-size: calc(7px + 0.3vw);
@@ -85,7 +89,6 @@ input{
   border: none;
   border-bottom:4px solid black
 }
-
 #dropdown {
   display: none;
   top: 50px;
@@ -100,8 +103,8 @@ input{
 
 section{
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
   padding: 20px 3%; 
   padding-bottom: 200px;
   background-color: rgb(254, 246, 234);
